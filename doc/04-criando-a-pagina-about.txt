@@ -1,0 +1,15 @@
+01) Criar arquivo dentro da pasta "pages" com o nome da página que queremos criar:
+
+    src/pages/about.js
+
+
+02) Estrutura "js" da página":
+
+    OBS: a estrutura dos componentes em Gatsby são iguais a do React.
+
+
+    import React from "react"
+
+    const AboutPage = () => <h1>Página Sobre</h1>
+
+    export default AboutPage
