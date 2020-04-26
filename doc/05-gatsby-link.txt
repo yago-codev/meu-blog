@@ -1,0 +1,47 @@
+00) Como o "gatsby-link" funciona?
+
+    O componente Link em particular funciona de uma maneira muito legal e inteligente. 
+    Quando fazemos um "hover" no link, 
+    por baixo dos panos o Gatsby já busca os dados da página que pertence ao link, 
+    portanto quando o usuário clica, todos os dados já estão carregados, 
+    oferecendo uma performance e usabilidade incríveis. 
+
+    link da documentação:
+
+    https://www.gatsbyjs.org/docs/gatsby-link/
+
+
+01) Importando o {Link} do "gatsby-link" na página "index.js":
+
+    import React from "react"
+    import { Link } from "gatsby-link"  //  <<<<<<<<<<<<<<
+
+    import Layout from "../components/layout"
+    import SEO from "../components/seo"
+
+    const IndexPage = () => (
+      <Layout>
+        <SEO title="Home" />
+        <h1>Home</h1>
+      </Layout>
+    )
+
+    export default IndexPage
+
+
+02) Como usar?
+
+    <Link to="/">
+      Link
+    </Link>
+
+
+03) O Link do "gatsby-link" também traz consigo uma propriedade que nos permite 
+    estilizar os links ativos:
+    
+    <Link to="/" activeStyle={{ color: 'red' }}>
+      Link
+    </Link>
+
+
+04) 
