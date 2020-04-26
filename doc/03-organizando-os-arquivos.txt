@@ -1,0 +1,36 @@
+01) Excluindo os arquivos que vem por default e que não serão reaproveitados:
+
+    São eles:
+    src/pages/page-2.js
+    src/components/header.js
+    src/components/image.js
+    src/components/layout.css
+    src/images/gatsby-astronaut.png
+
+
+02) Deixaremos o componente "layout.js" limpinho:
+
+    /**
+    * Layout component that queries for data
+    * with Gatsby's useStaticQuery component
+    *
+    * See: https://www.gatsbyjs.org/docs/use-static-query/
+    */
+
+    import React from "react"
+    import PropTypes from "prop-types"
+
+    const Layout = ({ children }) => {
+      return <main>{children}</main>
+    }
+
+    Layout.propTypes = {
+      children: PropTypes.node.isRequired,
+    }
+
+    export default Layout
+
+
+03) Setando as informações básicas sobre o projeto dentro do arquivo "gatsby-config.js"
+
+    

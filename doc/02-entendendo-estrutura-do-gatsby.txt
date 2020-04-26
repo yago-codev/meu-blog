@@ -1,0 +1,59 @@
+01) gatsby-config.js
+
+    Esse é o arquivo responsável por
+    fazer toda a configuração do Gatsby.
+
+    Aqui ficam as configurações de plugins e 
+    outros dados que são passados pro projeto.
+
+    Por default o Gatsby já traz consigo a configuração do "siteMetaData", 
+    e dentro dele temos informações como "titulo" do projeto,
+    descrição do projeto, autor...
+
+    Além disso também já temos alguns plugins configurados por default, 
+    tais como o "gatsby-plugin-react-helmet", "gatsby-transformer-sharp", "gatsby-plugin-sharp"...
+
+    Como se não bastasse,
+    também já temos o princípio de uma configuração do "gatsby-plugin-offline".
+
+
+02) gatsby-browser.js
+
+    É aqui que iremos passar toda variável ou biblioteca que queiramos utilizar no front.
+
+    Por exemplo, 
+    se quisermos trabalhar com alguma biblioteca de modal, lazy-loading...
+    Ou seja, qualquer biblioteca que faríamos um "import" em algum arquivo, 
+    faremos dentro do "gatsby-browser.js"
+
+
+03) gatsby-node.js
+
+    Esse arquivo serve para trabalharmos com a API do Gatsby. 
+
+    Basicamente, todo o conjunto de dados do Gatsby vai ser passado e 
+    trabalhado dentro desse arquivo. 
+
+    Por exemplo, 
+    os posts que iremos criar, 
+    as páginas/estruturas serão todas determinadas nesse arquivo.
+
+
+04) gatsby-ssr.js
+
+    Esse arquivo serve para trabalharmos com server side rendering.
+    
+    Se precisarmos fazer algo que seja renderizado do lado do servidor,
+    utilizaremos esse arquivo. 
+
+    Como no caso do blog isso não será necessário, 
+    iremos excluir-lo.
+
+
+05) Pasta "src"
+
+    Dentro delas já temos toda uma estrutura que ela traz por default,
+    contendo uma pasta dedicada para os "components", 
+    outra para as "images" e outra para as "pages".
+
+    

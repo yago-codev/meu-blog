@@ -1,0 +1,39 @@
+01) Link da documentação inicial do Gatsby:
+
+    https://www.gatsbyjs.org/tutorial/part-zero/
+
+
+02) Instalando o Gatsby Globalmente:
+
+    yarn add -g gatsby-cli
+
+
+03) Iniciando Projeto com Gatsby:
+
+    gastby new nome-do-projeto
+
+
+04) Helper do Gatsby para visualizar todos os comandos possíveis:
+
+    gatsby --help
+
+
+05) Iniciando o servidor de desenvolvimento:
+
+    gatsby develop
+
+
+06) Gerar o build dos arquivos estáticos finais:
+
+    gatsby build
+
+
+07) Montar um servidor a partir dos arquivos estátidos do build:
+
+    gatsby serve
+
+
+08) Limpar o cache:
+
+    gatsby clean
+
